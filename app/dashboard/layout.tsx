@@ -23,7 +23,14 @@ export default function DashboardLayout({
           </div>
         {children}
         </div>
-        
+        <div></div>        
+        <div></div>        
+        <div></div>        
+        <div></div>        
+        <div></div>        
+        <div></div>        
+        <div></div>        
+        <div></div>        
        </div>
 
   );
