@@ -1,15 +1,20 @@
+/* First animation: on HOVER*/
 .button{
-    border: 1px solid red;
     transition: font-size 3s linear;
     font-size: 20px;
-    animation: bounceIn 5s ease-in-out infinite;
-
 }
-
 .button:hover{
     font-size: 40px;
 }
 
+
+/* ------------------------------------------------ */
+
+
+ /*Second animation: Constant BOUNCE*/
+.button{
+    animation: bounceIn 5s ease-in-out infinite;
+}
 
 @keyframes bounceIn{
     0%{
@@ -24,6 +29,10 @@
 }
 
 
+/* ------------------------------------------------ */
+
+
+/*Third animation: Logo TURN*/
 .fall{
     animation-duration: 3s;
     animation-name: dangle
