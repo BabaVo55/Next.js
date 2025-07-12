@@ -11,7 +11,7 @@ export default function Navbar() {
             <input  type="text" placeholder='Search...' className='w-[200px] p-2 bg-transparent outline-none'/>
         </div>
         {/* RIght */}
-        <div className='flex items-center gap-4'>
+        <div className='flex items-center gap-6 justify-end w-full'>
             <div className='bg-white rounded-full w-7 h-7 flex items-center justify-center cursor-pointer'>
                 <Image  src='/message.png' width={14} height={14}/> 
             </div>

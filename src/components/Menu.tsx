@@ -127,7 +127,7 @@ export default function Menu({menuItems}) {
           <div className='flex flex-col gap-2 ' key={i.title}>
             <span className='hidden lg:block text-gray-400 font-light my-4'>{i.title}</span>
             {i.items.map((item) => (
-                <Link href={item.href} key={item.label} className='flex items-center justify-center lg:justify-start gap-4 text-gray-500 py-2  rounded-full hover:px-2 even:hover:bg-purple-300 odd:hover:bg-blue-300 transition-all duration-200'>
+                <Link href={item.href} key={item.label} className='flex items-center justify-center lg:justify-start gap-4 text-gray-500 py-2 rounded-full relative hover:px-2 even:hover:bg-purple-300 odd:hover:bg-blue-300 transition-all duration-200'>
                   <Image className='' src={item.icon} alt="" width={20} height={20} />
                   <span className='hidden lg:block'>{item.label}</span>
                 </Link>
