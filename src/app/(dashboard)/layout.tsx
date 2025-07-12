@@ -1,6 +1,8 @@
 import Menu from '../../components/Menu';
+import Navbar from '../../components/Navbar';
 import Link from 'next/link';
 import Image from 'next/image';
+import { Odor_Mean_Chey } from 'next/font/google';
 export default function DashboardLayout({
   children,
 }: Readonly<{
@@ -140,6 +142,8 @@ export default function DashboardLayout({
                 <p>{i}</p>
               </div>
             ))} */}
+
+            <Navbar />
           </div>
           {/* {children} */}
         </div>
