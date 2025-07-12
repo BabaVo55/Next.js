@@ -144,8 +144,8 @@ export default function DashboardLayout({
             ))} */}
 
             <Navbar />
+            {children}
           </div>
-          {/* {children} */}
         </div>
   );
 }
